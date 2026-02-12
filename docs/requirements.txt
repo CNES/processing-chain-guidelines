@@ -8,7 +8,7 @@ click==8.1.7
     # via mkdocs
 ghp-import==2.1.0
     # via mkdocs
-griffe==0.41.4
+griffe==0.47.0
     # via mkdocstrings-python
 importlib-metadata==7.0.2
     # via mkdocs
