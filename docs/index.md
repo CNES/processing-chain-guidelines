@@ -8,8 +8,8 @@ In order to facilitate the understanding and implementation of best practices, t
 
 | Niveau | Couleur / Icône | Commentaire |
 | :--- | :--- | :--- |
-| **Or** | [cite_start]Or [cite: 53] | [cite_start]Exigences obligatoires pour toute nouvelle chaîne[cite: 51, 54]. |
-| **Argent** | [cite_start]Argent [cite: 56] | [cite_start]Fortement conseillé et bientôt obligatoire[cite: 56]. |
-| **Bronze** | [cite_start]Bronze [cite: 55] | [cite_start]Bonnes pratiques suggérées[cite: 57]. |
+| **Or** | Or | Exigences obligatoires pour toute nouvelle chaîne. |
+| **Argent** | Argent | Fortement conseillé et bientôt obligatoire. |
+| **Bronze** | Bronze | Bonnes pratiques suggérées. |
 
 ---# Best Practices
