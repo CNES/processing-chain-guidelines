@@ -36,6 +36,8 @@ Outputs
 | `<data_type_5>` | 0..n |
 | ... | ... |
 
+---
+
 Return Codes
 ------------
 
@@ -57,6 +59,8 @@ The preferred log format should ideally follow this structure:
 | `Method_Name` | Can contain the name of the method or step currently executing |
 | `userMessage` | The body of the message |
 
+---
+
 Required Resources
 ------------------
 
@@ -69,6 +73,8 @@ Required Resources
 | Output Disk Space (total size of all output files) | ? |
 | Execution Time | ? |
 | Data Waiting Time (if not all data is present at trigger time) | ? |
+
+---
 
 Data Types
 ----------
