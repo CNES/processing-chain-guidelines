@@ -1,4 +1,4 @@
-### Processing Chain Description Template
+# Processing Chain Description Template
 
 #### Interface Elements for Chain Integration: `<chain_name>`
 
