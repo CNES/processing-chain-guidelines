@@ -11,5 +11,3 @@ In order to facilitate the understanding and implementation of best practices, t
 | **Or** | Or | Exigences obligatoires pour toute nouvelle chaîne. |
 | **Argent** | Argent | Fortement conseillé et bientôt obligatoire. |
 | **Bronze** | Bronze | Bonnes pratiques suggérées. |
-
----# Best Practices
