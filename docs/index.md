@@ -6,10 +6,12 @@ This guide aims to compile best practices and expectations for the design and de
 
 # Levels of Best Practices
 
-In order to facilitate the understanding and implementation of best practices, they are categorized into three levels: Gold, Silver, and Bronze. Each level corresponds to a specific set of requirements and recommendations that guide the design and development of data processing chains.
+In order to facilitate the understanding and implementation of best practices, they are categorized into three levels: Gold, Silver, and Bronze. Each level corresponds to a set of requirements and recommendations that guide the design and development of data processing chains.
 
-| Niveau | Couleur / Icône | Commentaire |
+The purpose of these levels is to provide a clear framework for developers, helping them prioritize their efforts and ensure that their processing chains meet the necessary standards for deployment and maintenance.
+
+| Level | Color / Icon | Comment |
 | :--- | :--- | :--- |
-| **Or** | Or | Exigences obligatoires pour toute nouvelle chaîne. |
-| **Argent** | Argent | Fortement conseillé et bientôt obligatoire. |
-| **Bronze** | Bronze | Bonnes pratiques suggérées. |
+| **Gold** | Gold | Mandatory requirements for any new processing chain. |
+| **Silver** | Silver | Strongly recommended and soon to be mandatory. |
+| **Bronze** | Bronze | Suggested best practices. |
