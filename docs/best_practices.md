@@ -1,5 +1,4 @@
-Best practices
-=====
+# Best practices
 
 Version and Tag
 ---------------
@@ -55,3 +54,51 @@ A template is provided to help you initialize your documentation here:
 * **Dataflow Document**: A document outlining the data flow.
 
 ---
+
+Industrialization
+-----------------
+
+#### Automated Tests
+* The chain must include at least one **E2E (End-to-End) test** validating the configuration and the use of peripheral data with the delivered Docker image.
+* Pay close attention to the test scope to cover scale-up use cases involving large data volumes.
+
+#### Data Management
+* Acquisition of processed data and production must be performed using an **S3 Bucket**.
+* Data flows auxiliary to acquisition and production should be as limited as possible and take minimum time.
+* Prioritize access via **HTTPS calls**, including for configurations, using a GIT server or an S3 bucket.
+
+---
+
+Logging Strategy
+-----------------
+
+Implement a logging strategy that allows for effective monitoring and troubleshooting of the processing chain.
+
+* **Production mode**: Log only `INFO` level unless a real malfunction occurs.
+* **Debug mode**: A more verbose mode for troubleshooting.
+* Master the logs of the COTs and frameworks used.
+* Use different log levels (0, 1, 2, 3, 4).
+
+---
+
+Optimization and Scalability Recommendations
+---------------------------------------------
+
+* Optimize time spent on **I/O** during processing.
+* Maximize **CPU utilization** throughout the processing duration.
+* Provide a recommendation document regarding the optimal distribution of the process:
+    * Minimum and maximum number of workers.
+    * Reserved CPU and RAM per worker.
+    * Estimated execution time for an input data chunk.
+
+---
+
+Interoperability and Standards
+------------------------------
+
+#### STAC Compliance
+* Provide a **STAC Item** file as an output of the chain.
+
+#### Data Format
+* Provide a **QuickLook** of the product.
+* Adhere to the **ARCO** (Analysis-Ready Cloud Optimized) format (to be specified/completed).

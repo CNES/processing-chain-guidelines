@@ -1,4 +1,8 @@
 site_name: Basic MkDocs Example Project
+nav:
+  - Home: index.md
+  - Best practices: best_practices.md
+  - API: api.md
 theme:
   name: readthedocs
   highlightjs: true
