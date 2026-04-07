@@ -1,8 +1,10 @@
 # Processing Chain Description Template
 
-#### Interface Elements for Chain Integration: `<chain_name>`
+This template is designed to provide a structured framework for describing the interface elements of a data processing chain, facilitating its integration into a data production center or similar facility. It covers various aspects of the chain, including process description, inputs and outputs, return codes, log format, required resources, and data types. By following this template, developers can ensure that their processing chains are well-documented and adhere to best practices for deployment and maintenance.
 
-#### Process: `<process_name>`
+## Interface Elements for Chain Integration: `<chain_name>`
+
+## Process: `<process_name>`
 
 * **Description**
     * TODO: Functional description of what the process does.
@@ -12,7 +14,7 @@
 * **Scheduling and Triggers**
     * For continuous processing, specify the expected periodicity and the triggering events.
 
-#### Inputs
+## Inputs
 **Data**
 | Data Type Name | Cardinality | Selection Criteria |
 | :--- | :--- | :--- |
@@ -21,7 +23,7 @@
 | `<data_type_3>` | 1..n | Files intersecting over the period XXX |
 | ... | 3 | The last 3 files on the same tile |
 
-#### Outputs
+## Outputs
 **Data**
 | Data Type Name | Cardinality |
 | :--- | :--- |
@@ -29,12 +31,12 @@
 | `<data_type_5>` | 0..n |
 | ... | ... |
 
-#### Return Codes
+## Return Codes
 * **0**: OK, execution completed successfully.
 * **1**: KO, execution failed.
 * **2, 3, 4, ...**: Potential other error cases or warnings (usually described in the process user documentation).
 
-#### Log Format
+## Log Format
 The preferred log format should ideally follow this structure:
 `<date> <Message_Classification>:<Class_Name>::<Method_Name>:<userMessage>`
 
@@ -46,7 +48,7 @@ The preferred log format should ideally follow this structure:
 | `Method_Name` | Can contain the name of the method or step currently executing |
 | `userMessage` | The body of the message |
 
-#### Required Resources
+## Required Resources
 | Resource Type | Quantity |
 | :--- | :--- |
 | Number of CPUs | ? |
@@ -57,7 +59,7 @@ The preferred log format should ideally follow this structure:
 | Execution Time | ? |
 | Data Waiting Time (if not all data is present at trigger time) | ? |
 
-#### Data Types
+## Data Types
 **`<data_type_1>`**
 * **Description**: TODO: description of the data type: content, origin, usage... Where to find the data?
 * **Granule**: TODO: A granule is a temporal and/or geographical identification object. Some types are universal (e.g., `SEGMENT` for a period or `DAY` for a day). Others are specific, such as `S2_TILE` (geographical only, e.g., `S2T29LQK`) or `S2_TEMPORAL_TILE` (tile associated with a date, e.g., `S2TT12HWG_20211018-122314-612`).
