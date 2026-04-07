@@ -2,8 +2,12 @@
 
 This template is designed to provide a structured framework for describing the interface elements of a data processing chain, facilitating its integration into a data production center or similar facility. It covers various aspects of the chain, including process description, inputs and outputs, return codes, log format, required resources, and data types. By following this template, developers can ensure that their processing chains are well-documented and adhere to best practices for deployment and maintenance.
 
+---
+
 Interface Elements for Chain Integration
 ----------------------------------------
+
+---
 
 Process description
 -------------------
@@ -15,6 +19,8 @@ Process description
     * Description of the processing granule.
 * **Scheduling and Triggers**
     * For continuous processing, specify the expected periodicity and the triggering events.
+
+---
 
 Inputs
 ------

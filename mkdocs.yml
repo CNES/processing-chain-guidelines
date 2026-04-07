@@ -2,7 +2,7 @@ site_name: Basic MkDocs Example Project
 nav:
   - Home: index.md
   - Best practices: best_practices.md
-  - API: api.md
+  - Data Processing Chain Template: Data_processing_chain_template.md
 theme:
   name: readthedocs
   highlightjs: true
