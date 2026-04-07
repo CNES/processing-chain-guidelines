@@ -1,7 +1,7 @@
 site_name: Basic MkDocs Example Project
 nav:
   - Home: index.md
-  - Best practices: best_practices.md
+  - Best Practices: best_practices.md
   - Data Processing Chain Template: Data_processing_chain_template.md
 theme:
   name: readthedocs

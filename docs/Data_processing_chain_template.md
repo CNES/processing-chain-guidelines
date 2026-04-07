@@ -4,11 +4,6 @@ This template is designed to provide a structured framework for describing the i
 
 ---
 
-Interface Elements for Chain Integration
-----------------------------------------
-
----
-
 Process description
 -------------------
 
@@ -25,7 +20,6 @@ Process description
 Inputs
 ------
 
-**Data**
 | Data Type Name | Cardinality | Selection Criteria |
 | :--- | :--- | :--- |
 | `<data_type_1>` | 1 | Trigger |
@@ -36,7 +30,6 @@ Inputs
 Outputs
 -------
 
-**Data**
 | Data Type Name | Cardinality |
 | :--- | :--- |
 | `<data_type_4>` | 1 |
@@ -52,6 +45,7 @@ Return Codes
 
 Log Format
 ----------
+
 The preferred log format should ideally follow this structure:
 `<date> <Message_Classification>:<Class_Name>::<Method_Name>:<userMessage>`
 
