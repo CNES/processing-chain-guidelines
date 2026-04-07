@@ -3,6 +3,10 @@ requires = ["flit_core >=3.2,<4"]
 build-backend = "flit_core.buildapi"
 
 [project]
-name = "lumache"
-authors = [{name = "Graziella", email = "graziella@lumache"}]
+name = "Data Processing Guide Line"
+authors = [{name = "Hugues Larat", email = "hugues.larat@cnes.fr"}]
+contributors = [
+    {name = "Guillaume Eynard", email = "guillaume.eynard@cnes.fr"},
+    {name = "Hugo Fournier", email = "hugo.fournier@cnes.fr"}
+]
 dynamic = ["version", "description"]
