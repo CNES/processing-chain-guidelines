@@ -18,6 +18,7 @@ Configuration Management
 ------------------------
 
 #### Readme
+
 A Readme written in Markdown at the root of the GIT project must allow for a quick overview of the chain.
 
 * **Documentation Link**: Link to the documentation hosted on readthedocs.com.
