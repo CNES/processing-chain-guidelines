@@ -73,8 +73,6 @@ Required Resources
 Data Types
 ----------
 
-Name of the data type: e.g., `S2_L2A`, `LST`, `NDVI`, etc.
-
 | Data Name | Description | Granule | Nomenclature |
 | :--- | :--- | :--- | :--- |
-|      | Description of the data type: content, origin, usage... Where to find the data | A granule is a temporal and/or geographical identification object. Some types are universal (e.g., `SEGMENT` for a period or `DAY` for a day). Others are specific, such as `S2_TILE` (geographical only, e.g., `S2T29LQK`) or `S2_TEMPORAL_TILE` (tile associated with a date, e.g., `S2TT12HWG_20211018-122314-612`). | Regular Expression: regex to identify a file corresponding to the data type, with explanations of its components. Example(s): one or more examples of filenames corresponding to the data type. |
+|   Name of the data type: e.g., `S2_L2A`, `LST`, `NDVI`, etc.   | Description of the data type: content, origin, usage... Where to find the data | A granule is a temporal and/or geographical identification object. Some types are universal (e.g., `SEGMENT` for a period or `DAY` for a day). Others are specific, such as `S2_TILE` (geographical only, e.g., `S2T29LQK`) or `S2_TEMPORAL_TILE` (tile associated with a date, e.g., `S2TT12HWG_20211018-122314-612`). | Regular Expression: regex to identify a file corresponding to the data type, with explanations of its components. Example(s): one or more examples of filenames corresponding to the data type. |
