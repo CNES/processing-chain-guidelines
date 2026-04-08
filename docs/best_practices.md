@@ -38,7 +38,9 @@ Packaging
 Images must be in OCI container format (Docker type).
 
 #### CWL Description of the Process
-A CWL file containing a minimal description of your process must be provided, including:
+
+A CWL file containing a minimal description of your process must be provided, including the following sections:
+
 * **Input Data**
 * **Processing**
 * **Output Data**
