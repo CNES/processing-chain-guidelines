@@ -14,6 +14,6 @@ The purpose of these levels is to provide a clear framework for developers, help
 
 | Level | Color / Icon | Comment |
 | :--- | :--- | :--- |
-| **Gold** | Gold | Mandatory requirements for any new processing chain. |
-| **Silver** | Silver | Strongly recommended and soon to be mandatory. |
+| **Gold** | Gold 🥇 | Mandatory requirements for any new processing chain. |
+| **Silver** | Silver 🥈 | Strongly recommended and soon to be mandatory. |
 | **Bronze** | Bronze | Suggested best practices. |

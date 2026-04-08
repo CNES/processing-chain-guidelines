@@ -34,10 +34,10 @@ The project should follow the Git Flow workflow: [https://git-flow.readthedocs.i
 Packaging
 ---------
 
-#### Image Format
+#### Image Format 🥇
 Images must be in OCI container format (Docker type).
 
-#### CWL Description of the Process
+#### CWL Description of the Process 🥇
 
 A CWL file containing a minimal description of your process must be provided, including the following sections:
 
@@ -47,8 +47,8 @@ A CWL file containing a minimal description of your process must be provided, in
 
 ---
 
-Documentation
--------------
+Documentation 🥇
+------------- 
 
 Documentation must be managed within the GIT project and made publicly available (e.g., Readthedocs, Jupyterbook, Sphinx).
 A template is provided to help you initialize your documentation here:
@@ -62,18 +62,18 @@ A template is provided to help you initialize your documentation here:
 Industrialization
 -----------------
 
-#### Automated Tests
+#### Automated Tests 🥈
 * The chain must include at least one **E2E (End-to-End) test** validating the configuration and the use of peripheral data with the delivered Docker image.
 * Pay close attention to the test scope to cover scale-up use cases involving large data volumes.
 
-#### Data Management
+#### Data Management 🥈
 * Acquisition of processed data and production must be performed using an **S3 Bucket**.
 * Data flows auxiliary to acquisition and production should be as limited as possible and take minimum time.
 * Prioritize access via **HTTPS calls**, including for configurations, using a GIT server or an S3 bucket.
 
 ---
 
-Logging Strategy
+Logging Strategy 🥉
 -----------------
 
 Implement a logging strategy that allows for effective monitoring and troubleshooting of the processing chain.
@@ -85,7 +85,7 @@ Implement a logging strategy that allows for effective monitoring and troublesho
 
 ---
 
-Optimization and Scalability Recommendations
+Optimization and Scalability Recommendations 🥇
 ---------------------------------------------
 
 * Optimize time spent on **I/O** during processing.
@@ -97,12 +97,12 @@ Optimization and Scalability Recommendations
 
 ---
 
-Interoperability and Standards
+Interoperability and Standards 
 ------------------------------
 
-#### STAC Compliance
+#### STAC Compliance 🥉 
 * Provide a **STAC Item** file as an output of the chain.
 
-#### Data Format
+#### Data Format 🥈 
 * Provide a **QuickLook** of the product.
 * Adhere to the **ARCO** (Analysis-Ready Cloud Optimized) format (to be specified/completed).
