@@ -1,6 +1,6 @@
 # Best practices
 
-Version and Tag
+Version and Tag 🥇
 ---------------
 
 The version management for the evolution of the processing chain must comply with [semver.org](https://semver.org/lang/fr/). 
@@ -17,7 +17,7 @@ The version tag must be applied to a development branch containing the algorithm
 Configuration Management
 ------------------------
 
-#### Readme
+#### Readme File 🥇
 
 A Readme written in Markdown at the root of the GIT project must allow for a quick overview of the chain.
 
@@ -25,8 +25,8 @@ A Readme written in Markdown at the root of the GIT project must allow for a qui
 * **Title and Badge**: Project name and indicators (build status, version, license).
 * **Short Description (Pitch)**: One to two sentences maximum on the "what" and the "why".
 * **Quick Installation**: A single command line (e.g., `npm install` or `pip install`).
-
-#### GIT Workflow
+🥈
+#### GIT Workflow 🥈
 The project should follow the Git Flow workflow: [https://git-flow.readthedocs.io/fr/latest/presentation.html](https://git-flow.readthedocs.io/fr/latest/presentation.html)
 
 ---
@@ -35,6 +35,7 @@ Packaging
 ---------
 
 #### Image Format 🥇
+
 Images must be in OCI container format (Docker type).
 
 #### CWL Description of the Process 🥇
