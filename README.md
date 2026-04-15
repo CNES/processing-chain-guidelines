@@ -3,3 +3,7 @@ This guide aims to compile best practices and expectations for the design and de
 However make a choice of the standards to be followed, and do not try to follow all of them at once is not easy. This guide is intended to help developers navigate this landscape and make informed decisions about the design and development of their data processing chains, ensuring that they meet the necessary standards for deployment and maintenance base on different levels of best practices (Gold, Silver, Bronze).
 
 Web site documentation: https://processing-chain-guidelines.readthedocs.io/en/latest/
+
+How run localy the documentation:
+1. Install mkdocs dependencies: `pip install -r docs/requirements.txt`
+2. Serve the documentation locally: `python -m mkdocs serve`
