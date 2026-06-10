@@ -23,7 +23,6 @@ A Readme written in Markdown at the root of the GIT project must allow for a qui
 - **Title and Badge**: Project name and indicators (build status, version, license).
 - **Short Description (Pitch)**: One to two sentences maximum on the "what" and the "why".
 - **Quick Installation**: A single command line (e.g., `npm install` or `pip install`).
-  🐺
 
 #### GIT Workflow 🐺
 
@@ -93,7 +92,7 @@ Implement a logging strategy that allows for effective monitoring and troublesho
 - Optimize time spent on **I/O** during processing.
 - Maximize **CPU utilization** throughout the processing duration.
 - Provide a recommendation document regarding the optimal distribution of the process:
-- Minimum and maximum number of workers.
+  - Minimum and maximum number of workers.
   - Reserved CPU and RAM per worker.
   - Estimated execution time for an input data chunk.
 
