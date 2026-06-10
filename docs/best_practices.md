@@ -110,3 +110,4 @@ Implement a logging strategy that allows for effective monitoring and troublesho
 
 - Provide a **QuickLook** of the product.
 - Adhere to the **ARCO** (Analysis-Ready Cloud Optimized) format (to be specified/completed).
+  - ARCO documentation: [ARCO Copernicus](https://help.marine.copernicus.eu/en/articles/12332770-introduction-to-the-arco-format)
