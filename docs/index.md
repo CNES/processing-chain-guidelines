@@ -1,17 +1,17 @@
 # Introduction
 
-<table style="border-collapse: collapse; background: transparent; border !important: none; width: 100%;">
-	<tr style="background: transparent; border: none;">
-		<td style="border: none; background: transparent; text-align: center; padding: 0.25rem;">
+<table style="border-collapse: collapse; background: transparent; border: none !important; width: 100%;">
+	<tr style="background: transparent; border: none !important;">
+		<td style="border: none !important; background: transparent; text-align: center; padding: 0.25rem;">
 			<img src="images/Logo_CNES_2017_triangulaire_bleu.png" alt="CNES logo" height="70" style="height: 70px !important; width: auto !important; max-height: 70px !important;">
 		</td>
-		<td style="border: none; background: transparent; text-align: center; padding: 0.25rem;">
+		<td style="border: none !important; background: transparent; text-align: center; padding: 0.25rem;">
 			<img src="images/Open_Geospatial_Consortium_logo.svg.png" alt="OGC logo" height="70" style="height: 70px !important; width: auto !important; max-height: 70px !important;">
 		</td>
-		<td style="border: none; background: transparent; text-align: center; padding: 0.25rem;">
+		<td style="border: none !important; background: transparent; text-align: center; padding: 0.25rem;">
 			<img src="images/STAC-logo.png" alt="STAC logo" height="70" style="height: 70px !important; width: auto !important; max-height: 70px !important;">
 		</td>
-		<td style="border: none; background: transparent; text-align: center; padding: 0.25rem;">
+		<td style="border: none !important; background: transparent; text-align: center; padding: 0.25rem;">
 			<img src="images/cng-logo.png" alt="CNG logo" height="70" style="height: 70px !important; width: auto !important; max-height: 70px !important;">
 		</td>
 	</tr>
