@@ -15,3 +15,10 @@ The Incubation Platform is a collaborative environment designed to facilitate th
 Geodes-Tools is a portal listing libraries and tools for processing and exploiting space data (optical and SAR imagery, atmospheric sounding, altimetry, astrophysics). It provides a catalogue of these tools (with filtering and search options), as well as tutorials, “tips & tricks” guides and “Getting started” page dedicated to space data processing.
 
 [Geodes Tools Documentation](https://geodes.cnes.fr/en/geodes-tools-2/)
+
+### Ressources
+
+[Cloud Native Geo Guide](https://guide.cloudnativegeo.org/)
+[Open Geospatiales Consortium](https://www.ogc.org/fr/)
+[Cloud Native Geo](https://cloudnativegeo.org/)
+[SpatioTemporal Asset Catalog](https://stacspec.org/en)
