@@ -49,7 +49,7 @@ A CWL file containing a minimal description of your process must be provided, in
 ## Documentation 🦊
 
 Documentation must be managed within the GIT project and made publicly available (e.g., Readthedocs, Jupyterbook, Sphinx).
-A template is provided to help you initialize your documentation here:
+This can also be done simply in the ReadMe file, as long as it contains all the requested information.
 
 ### Documentation Content
 
