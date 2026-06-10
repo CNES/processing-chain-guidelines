@@ -4,21 +4,19 @@ This template is designed to provide a structured framework for describing the i
 
 ---
 
-Process description
--------------------
+## Process description
 
 * **Description**
-    * Functional description of what the process does.
-    * Link to the process documentation (README, user manual, etc.).
-* **Application Domain (Granule)**
-    * Description of the processing granule.
+  * Functional description of what the process does.
+  * Link to the process documentation (README, user manual, etc.).
+  * **Application Domain (Granule)**
+  * Description of the processing granule.
 * **Scheduling and Triggers**
-    * For continuous processing, specify the expected periodicity and the triggering events.
+  * For continuous processing, specify the expected periodicity and the triggering events.
 
 ---
 
-Inputs
-------
+## Inputs
 
 | Data Type Name | Cardinality | Selection Criteria |
 | :--- | :--- | :--- |
@@ -27,8 +25,7 @@ Inputs
 | `<data_type_3>` | 1..n | Files intersecting over the period XXX |
 | ... | 3 | The last 3 files on the same tile |
 
-Outputs
--------
+## Outputs
 
 | Data Type Name | Cardinality |
 | :--- | :--- |
@@ -38,15 +35,13 @@ Outputs
 
 ---
 
-Return Codes
-------------
+## Return Codes
 
 * **0**: OK, execution completed successfully.
 * **1**: KO, execution failed.
 * **2, 3, 4, ...**: Potential other error cases or warnings (usually described in the process user documentation).
 
-Log Format
-----------
+## Log Format
 
 The preferred log format should ideally follow this structure:
 `<date> <Message_Classification>:<Class_Name>::<Method_Name>:<userMessage>`
@@ -61,8 +56,7 @@ The preferred log format should ideally follow this structure:
 
 ---
 
-Required Resources
-------------------
+## Required Resources
 
 | Resource Type | Quantity |
 | :--- | :--- |
@@ -76,8 +70,7 @@ Required Resources
 
 ---
 
-Data Types
-----------
+## Data Types
 
 | Data Name | Description | Granule | Nomenclature |
 | :--- | :--- | :--- | :--- |
