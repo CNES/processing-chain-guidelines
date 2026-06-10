@@ -93,7 +93,7 @@ Implement a logging strategy that allows for effective monitoring and troublesho
 - Optimize time spent on **I/O** during processing.
 - Maximize **CPU utilization** throughout the processing duration.
 - Provide a recommendation document regarding the optimal distribution of the process:
-  - Minimum and maximum number of workers.
+- Minimum and maximum number of workers.
   - Reserved CPU and RAM per worker.
   - Estimated execution time for an input data chunk.
 
@@ -104,9 +104,8 @@ Implement a logging strategy that allows for effective monitoring and troublesho
 ### STAC Compliance 🦁
 
 - Provide a **STAC Item** file as an output of the chain.
-STAT Item documentation: [STAC Item best pratices](https://github.com/radiantearth/stac-spec/blob/master/best-practices.md#item-practices)
-Example STAC Item (Sentinel-2): [sentinel-2-l1c-item.json](files/sentinel-2-l1c-item.json)
-
+  - STAT Item documentation: [STAC Item best pratices](https://github.com/radiantearth/stac-spec/blob/master/best-practices.md#item-practices)
+  - Example STAC Item (Sentinel-2): [sentinel-2-l1c-item.json](files/sentinel-2-l1c-item.json)
 
 #### Data Format 🐺
 
