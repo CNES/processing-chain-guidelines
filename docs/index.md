@@ -12,8 +12,8 @@ In order to facilitate the understanding and implementation of best practices, t
 
 The purpose of these levels is to provide a clear framework for developers, helping them prioritize their efforts and ensure that their processing chains meet the necessary standards for deployment and maintenance.
 
-| Level | Color / Icon | Comment |
-| :--- | :--- | :--- |
-| **Gold** | Gold 🥇 | Mandatory requirements for any new processing chain. |
-| **Silver** | Silver 🥈 | Strongly recommended and soon to be mandatory. |
-| **Bronze** | Bronze 🥉 | Suggested best practices. |
+| Level      | Animal Icon | Comment                                              |
+| :--------- | :---------- | :--------------------------------------------------- |
+| **Mandatory**   | Fox 🦊      | Mandatory requirements for any new processing chain. |
+| **Recommended** | Wolf 🐺     | Strongly recommended and soon to be mandatory.       |
+| **Best practices** | Lion 🦁     | Suggested best practices.                            |
