@@ -19,10 +19,10 @@ The version tag must be applied to a development branch containing the algorithm
 
 A Readme written in Markdown at the root of the GIT project must allow for a quick overview of the chain.
 
-- **Documentation Link**: Link to the documentation hosted on readthedocs.com.
 - **Title and Badge**: Project name and indicators (build status, version, license).
 - **Short Description (Pitch)**: One to two sentences maximum on the "what" and the "why".
 - **Quick Installation**: A single command line (e.g., `npm install` or `pip install`).
+- **Documentation or Link**: Link to the documentation hosted on readthedocs.com (or an equivalent in public access)
 
 #### GIT Workflow 🐺
 
