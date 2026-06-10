@@ -18,7 +18,7 @@ Geodes-Tools is a portal listing libraries and tools for processing and exploiti
 
 ### Ressources
 
-[Cloud Native Geo Guide](https://guide.cloudnativegeo.org/)
-[Open Geospatiales Consortium](https://www.ogc.org/fr/)
-[Cloud Native Geo](https://cloudnativegeo.org/)
-[SpatioTemporal Asset Catalog](https://stacspec.org/en)
+[Cloud Native Geo Guide](https://guide.cloudnativegeo.org/)  
+[Open Geospatiales Consortium](https://www.ogc.org/fr/)  
+[Cloud Native Geo](https://cloudnativegeo.org/)  
+[SpatioTemporal Asset Catalog](https://stacspec.org/en)  
