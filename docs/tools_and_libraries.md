@@ -8,4 +8,4 @@ This section provides an overview of the tools and libraries commonly used in th
 
 The Incubation Platform is a collaborative environment designed to facilitate the development and testing of data processing chains. It provides a suite of tools for benchmarking and diagnostics, allowing developers to evaluate the performance and accuracy of their algorithms in a controlled setting.
 
-[Incubation & Expertise Platform Documentation](https://centre-incubation-doc.readthedocs.io/en/latest/)
+[Incubation & Expertise Platform Documentation](https://incubation-expertise-platform.readthedocs.io/en/latest/)
