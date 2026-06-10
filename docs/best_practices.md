@@ -54,6 +54,7 @@ A template is provided to help you initialize your documentation here:
 
 ### Documentation Content
 
+- **User documentation**
 - **Process Description Template**: Standard [template](https://processing-chain-guidelines.readthedocs.io/en/latest/Data_processing_chain_template/) for describing a processing chain.
 - **Dataflow Document**: A document outlining the data flow to show the input and ouput usage of the processing chain
 
