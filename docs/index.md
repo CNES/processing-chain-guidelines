@@ -1,6 +1,6 @@
 # Introduction
 
-<table style="border-collapse: collapse; background: transparent; border: none; width: 100%;">
+<table style="border-collapse: collapse; background: transparent; border !important: none; width: 100%;">
 	<tr style="background: transparent; border: none;">
 		<td style="border: none; background: transparent; text-align: center; padding: 0.25rem;">
 			<img src="images/Logo_CNES_2017_triangulaire_bleu.png" alt="CNES logo" height="70" style="height: 70px !important; width: auto !important; max-height: 70px !important;">
