@@ -110,5 +110,5 @@ Implement a logging strategy that allows for effective monitoring and troublesho
 
 - Provide a **QuickLook** of the product.
 - Adhere to the **ARCO** (Analysis-Ready Cloud Optimized) format.
-   - For vector data we expect: GeoParquet or FlatGeoBuff.
-   - For raster data we expect: Zarr, COG and GeoZarr.
+    - For vector data we expect: GeoParquet or FlatGeoBuff.
+    - For raster data we expect: Zarr, COG and GeoZarr.
