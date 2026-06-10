@@ -109,5 +109,9 @@ Implement a logging strategy that allows for effective monitoring and troublesho
 #### Data Format 🐺
 
 - Provide a **QuickLook** of the product.
-- Adhere to the **ARCO** (Analysis-Ready Cloud Optimized) format (to be specified/completed).
-    - ARCO documentation: [ARCO Copernicus](https://help.marine.copernicus.eu/en/articles/12332770-introduction-to-the-arco-format)
+- Adhere to the **ARCO** (Analysis-Ready Cloud Optimized) format.
+
+##### Cloud Data Format
+
+- For vector data we expect: GeoParquet or FlatGeoBuff.
+- For raster data we expect: Zarr, COG and GeoZarr.
