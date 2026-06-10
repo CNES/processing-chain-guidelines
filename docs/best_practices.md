@@ -104,6 +104,9 @@ Implement a logging strategy that allows for effective monitoring and troublesho
 ### STAC Compliance 🦁
 
 - Provide a **STAC Item** file as an output of the chain.
+STAT Item documentation: [STAC Item best pratices](https://github.com/radiantearth/stac-spec/blob/master/best-practices.md#item-practices)
+Example STAC Item (Sentinel-2): [sentinel-2-l1c-item.json](files/sentinel-2-l1c-item.json)
+
 
 #### Data Format 🐺
 

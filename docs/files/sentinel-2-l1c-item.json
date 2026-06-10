@@ -1,0 +1,156 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/eo/v2.0.0/schema.json",
+    "https://stac-extensions.github.io/processing/v1.2.0/schema.json",
+    "https://stac-extensions.github.io/grid/v1.1.0/schema.json",
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sat/v1.1.0/schema.json",
+    "https://stac-extensions.github.io/product/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/projection/v2.0.0/schema.json"
+  ],
+  "id": "S2A_MSIL1C_20230615T103021_N0509_R108_T31TCJ_20230615T143835",
+  "collection": "sentinel-2-l1c",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [1.38, 43.29],
+        [2.66, 43.29],
+        [2.66, 44.24],
+        [1.38, 44.24],
+        [1.38, 43.29]
+      ]
+    ]
+  },
+  "bbox": [1.38, 43.29, 2.66, 44.24],
+  "properties": {
+    "datetime": "2023-06-15T10:30:21Z",
+    "created": "2023-06-15T14:38:35Z",
+    "platform": "sentinel-2a",
+    "instruments": ["msi"],
+    "constellation": "sentinel-2",
+    "gsd": 10,
+    "processing:level": "L1C",
+    "processing:version": "05.09",
+    "processing:facility": "ESA/ESRIN",
+    "processing:datetime": "2023-06-15T14:38:35Z",
+    "eo:cloud_cover": 12.4,
+    "eo:snow_cover": 0.0,
+    "grid:code": "MGRS-31TCJ",
+    "view:sun_azimuth": 158.3,
+    "view:sun_elevation": 62.7,
+    "view:off_nadir": 2.1,
+    "sat:orbit_state": "descending",
+    "sat:absolute_orbit": 41722,
+    "sat:relative_orbit": 108,
+    "sat:orbit_cycle": 23,
+    "sat:platform_international_designator": "2015-028A",
+    "product:type": "S2MSI1C",
+    "product:timeliness": "NTC",
+    "product:acquisition_type": "nominal",
+    "proj:code": "EPSG:32631",
+    "proj:shape": [10980, 10980],
+    "proj:bbox": [199980.0, 4790220.0, 309780.0, 4900020.0],
+    "proj:centroid": {"lat": 43.76, "lon": 2.02},
+    "statistics": {
+      "water": 1.2,
+      "nodata": 0.0,
+      "saturated_defective": 0.1,
+      "ground_useful": 74.3,
+      "min_useful": 74.3
+    }
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "https://geodes.cnes.fr/stac/collections/sentinel-2-l1c/items/S2A_MSIL1C_20230615T103021_N0509_R108_T31TCJ_20230615T143835",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "collection",
+      "href": "https://geodes.cnes.fr/stac/collections/sentinel-2-l1c",
+      "type": "application/json"
+    },
+    {
+      "rel": "root",
+      "href": "https://geodes.cnes.fr/stac",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "B02": {
+      "href": "https://geodes.cnes.fr/data/sentinel-2-l1c/S2A_MSIL1C_20230615T103021_N0509_R108_T31TCJ/B02.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "Band 2 — Blue (10 m)",
+      "roles": ["data"],
+      "bands": [
+        {
+          "name": "B02",
+          "common_name": "blue",
+          "center_wavelength": 0.490,
+          "full_width_half_max": 0.098,
+          "gsd": 10
+        }
+      ],
+      "alternate": {
+        "s3": {
+          "href": "s3://cnes-geodes-prod/sentinel-2-l1c/S2A_MSIL1C_20230615T103021_N0509_R108_T31TCJ/B02.tif",
+          "title": "S3 internal URL"
+        }
+      }
+    },
+    "B03": {
+      "href": "https://geodes.cnes.fr/data/sentinel-2-l1c/S2A_MSIL1C_20230615T103021_N0509_R108_T31TCJ/B03.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "Band 3 — Green (10 m)",
+      "roles": ["data"],
+      "bands": [
+        {
+          "name": "B03",
+          "common_name": "green",
+          "center_wavelength": 0.560,
+          "full_width_half_max": 0.045,
+          "gsd": 10
+        }
+      ]
+    },
+    "B04": {
+      "href": "https://geodes.cnes.fr/data/sentinel-2-l1c/S2A_MSIL1C_20230615T103021_N0509_R108_T31TCJ/B04.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "Band 4 — Red (10 m)",
+      "roles": ["data"],
+      "bands": [
+        {
+          "name": "B04",
+          "common_name": "red",
+          "center_wavelength": 0.665,
+          "full_width_half_max": 0.038,
+          "gsd": 10
+        }
+      ]
+    },
+    "B08": {
+      "href": "https://geodes.cnes.fr/data/sentinel-2-l1c/S2A_MSIL1C_20230615T103021_N0509_R108_T31TCJ/B08.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "Band 8 — NIR (10 m)",
+      "roles": ["data"],
+      "bands": [
+        {
+          "name": "B08",
+          "common_name": "nir",
+          "center_wavelength": 0.842,
+          "full_width_half_max": 0.145,
+          "gsd": 10
+        }
+      ]
+    },
+    "thumbnail": {
+      "href": "https://geodes.cnes.fr/data/sentinel-2-l1c/S2A_MSIL1C_20230615T103021_N0509_R108_T31TCJ/thumbnail.jpg",
+      "type": "image/jpeg",
+      "title": "Thumbnail",
+      "roles": ["thumbnail"]
+    }
+  }
+}
